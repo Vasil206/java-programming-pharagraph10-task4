@@ -1,5 +1,7 @@
 
-package Graph;
+package graph;
+
+import java.util.List;
 
 public interface Graphable {
     
@@ -7,11 +9,13 @@ public interface Graphable {
     
     boolean deleteEdge(int from, int to);
     
+    List<Integer> getNodes();
+    
     int addNode();
     
     boolean deleteNode(int nodeNumber);
     
-    Integer[] getNeighbours(int nodeNumber);
+    List<Integer> getNeighbours(int nodeNumber);
     
     int size();
 }
