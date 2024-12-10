@@ -13,8 +13,8 @@ import org.junit.jupiter.api.Test;
 public class unorientedGraphTest {
     
     @Test
-    @DisplayName("complex user test")
-    public void test(){
+    @DisplayName("full test for unoriented graph")
+    public void unorientedGraphFullTest(){
         
         var graph = new UnorientedGraph(10);
 
